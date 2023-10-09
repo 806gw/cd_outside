@@ -19,7 +19,16 @@
   height: 3rem;
 }
 
-.header>form>input {
+.header>.ico-search {
+  display: flex;
+  margin-right: 40em;
+}
+
+.header>.ico-search>form {
+  width: 26rem;
+}
+
+.header>.ico-search>form>input {
   width: 21.5rem;
   height: 3rem;
   border: 4px solid #3b4890;
@@ -27,9 +36,11 @@
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
+  margin-top: 1.1em;
+  margin-left: 1em;
 }
 
-.header>form>button {
+.header>.ico-search>form>button {
   width: 3.5rem;
   height: 3rem;
   background-color: #3b4890;
@@ -225,10 +236,9 @@
 .login-container > .login-box > .login-contents > form > .password-login > button {
   background-color: #3b4890;
   color: #eee;
-  margin-left: 24px;
-  width: 80px;
+  width: 60px;
   height: 25px;
-  
+  margin-left: 0.5rem;
 }
 
 .login-container>.login-box>.join-find-box {
@@ -240,3 +250,10 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.password {
+  margin-top: 0.7rem;
+} 
+
+
+
