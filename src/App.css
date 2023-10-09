@@ -1,0 +1,242 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.header {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header>form {
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  height: 3rem;
+}
+
+.header>form>input {
+  width: 21.5rem;
+  height: 3rem;
+  border: 4px solid #3b4890;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+}
+
+.header>form>button {
+  width: 3.5rem;
+  height: 3rem;
+  background-color: #3b4890;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.header>form>button>svg {
+  margin-bottom: -0.2rem;
+}
+
+.navigation {
+  width: 100%;
+  height: 3rem;
+  background-color: #3b4890;
+}
+
+.navigation>.nav-container {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navigation>.nav-container>span {
+  color: #fff;
+  font-size: large;
+}
+
+.post-container {
+  margin: auto;
+  width: 83rem;
+  height: 100vh;
+}
+
+.post-container>.recent-visit {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  background-color: #eee;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; */
+}
+
+.post-container>.recent-visit>div:first-child {
+  margin-left: 1rem;
+  color: #3b4890;
+  font-weight: bold;
+}
+
+.post-container>.recent-visit>div:first-child>button {
+  margin-left: 0.5rem;
+  background-color: #ddd;
+  width: 1.7rem;
+  height: 1.5rem;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.post-container>.recent-visit>div:first-child>button>svg {
+  margin-bottom: -0.15rem;
+}
+
+.visit-container-open {
+  width: 100%;
+  height: 20rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  visibility: visible;
+  transition: all .25s;
+  z-index: 2;
+}
+
+.visit-container-close {
+  width: 100%;
+  height: 0;
+  transition: all .25s;
+  visibility: hidden;
+}
+
+.visit-container-close>* {
+  visibility: hidden;
+}
+
+.visit-container-open>.divider {
+  margin: auto;
+  width: 100%;
+  height: 3.3rem;
+  background-color: #faa;
+}
+
+.visit-container-open>.divider>button {
+  width: 50%;
+  height: 100%;
+  font-size: 1.1rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .25s;
+}
+
+.visit-container-open>.divider>.active {
+  background-color: #3b4890;
+  color: #fff;
+}
+
+.visit-container-open>.detail-container {
+  width: 100%;
+  height: 16.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+.hit-gallerty-container {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+}
+
+.hit-gallerty-container>.hit-gallery {
+  border-bottom: 3px solid #3b4890;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.hit-gallerty-container>.hit-gallery>.button-box {
+  margin-left: auto;
+}
+
+.hit-gallerty-container>.hit-gallery>.text-box {
+  font-size: 1.2rem;
+  color: #3b4890;
+  font-weight: 700;
+}
+
+.hit-gallerty-container>.hit-gallery>.button-box>button {
+  background-color: #3b4890;
+  border: none;
+  height: 1.8rem;
+  color: #fff;
+}
+
+.hit-gallerty-container>.hit-gallery>.button-box>button>svg {
+  margin-bottom: -0.15rem;
+}
+
+.hit-gallerty-container>.hit-gallery>.button-box>span {
+  margin-right: 1rem;
+}
+
+.login-container {
+  margin-top: 0.7rem;
+  width: 35%;
+  height: 7rem;
+  background-color: #eee;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-left: 30px;
+}
+
+.login-container>.login-box {
+  height: 100%;
+}
+
+.login-container>.login-box>.login-contents {
+  width: 100%;
+  height: 60%;
+  margin: auto;
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+
+.login-container>.login-box>.login-contents>form {
+  width: 80%;
+  height: 3.5rem;
+  margin: auto;
+}
+
+
+.login-container > .login-box > .login-contents > form > .password-login > button {
+  background-color: #3b4890;
+  color: #eee;
+  margin-left: 24px;
+  width: 80px;
+  height: 25px;
+  
+}
+
+.login-container>.login-box>.join-find-box {
+  width: 70%;
+  height: 30%;
+  margin: auto;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
