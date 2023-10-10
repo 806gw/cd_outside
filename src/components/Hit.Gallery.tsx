@@ -8,26 +8,29 @@ const HitGallery = () => {
   return (
     <div className="hit-gallerty-container">
       <div className="hit-gallery">
-        <div className="text-box">HIT 갤러리</div>
-
-        <div className="button-box">
-          <span>
-            <b>1</b>/3
-          </span>
-          <button>
-            <AiFillCaretLeft />
-          </button>
-          <button>
-            <AiFillCaretRight />
-          </button>
+        <div className="text-box">
+          HIT 갤러리
+          <div className="button-box">
+            <span>
+              <b>1</b>/3
+            </span>
+            <button>
+              <AiFillCaretLeft />
+            </button>
+            <button>
+              <AiFillCaretRight />
+            </button>
+          </div>
         </div>
+
         <div className="gallery-box">
-        <div className="img-1"></div>
-        <div className="img-2"></div>
-        <div className="img-3"></div>
-        <div className="img-4"></div>
+          <div className="img-1"></div>
+          <div className="img-2"></div>
+          <div className="img-3"></div>
+          <div className="img-4"></div>
+        </div>
       </div>
-      </div>
+
       <div className="login-container">
         <div className="login-box">
           <div className="login-contents">

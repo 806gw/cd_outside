@@ -1,6 +1,5 @@
 import { FormEvent, useState } from "react";
 import { FaSearch } from 'react-icons/fa'
-
 const Header = () => {
   const [searchValue, setSearchValue] = useState<string>("");
 
@@ -14,7 +13,7 @@ const Header = () => {
     <header className="header">
       <div className="ico-search">
         <img
-          src="https://o.remove.bg/downloads/c45cb8fb-3327-4ea1-be00-fcd4140fa0e8/image-removebg-preview.png"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86DKzPbiSheFqV12Hu3z-rweaVwFLnBUuqj6drd6h8tRq9_ByumZs4IuXPOPuSY9OZg&usqp=CAU"
           className="gbsw-ico"
         />
         <form onSubmit={handleSearch}>

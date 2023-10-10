@@ -172,11 +172,8 @@
   display: flex;
 }
 
-.hit-gallerty-container>.hit-gallery {
-  border-bottom: 3px solid #3b4890;
-  width: 100%;
-  display: flex;
-  align-items: center;
+.hit-gallerty-container> .hit-gallery {
+  width: 80%;
   height: 100%;
 }
 
@@ -185,9 +182,12 @@
 }
 
 .hit-gallerty-container>.hit-gallery>.text-box {
+  border-bottom: 3px solid #3b4890;
   font-size: 1.2rem;
   color: #3b4890;
   font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 .hit-gallerty-container>.hit-gallery>.button-box>button {
@@ -216,6 +216,7 @@
 
 .login-container>.login-box {
   height: 100%;
+  width: 10rem
 }
 
 .login-container>.login-box>.login-contents {
@@ -255,5 +256,9 @@
   margin-top: 0.7rem;
 } 
 
-
+.gallery-box {
+  display: flex;
+  /* height: 20rem; */
+  width: 100%;
+}
 
