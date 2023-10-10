@@ -6,7 +6,7 @@ const HitGallery = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="hit-gallerty-container">
+    <div className="hit-gallery-container">
       <div className="hit-gallery">
         <div className="text-box">
           HIT 갤러리
@@ -24,10 +24,10 @@ const HitGallery = () => {
         </div>
 
         <div className="gallery-box">
-          <div className="img-1"></div>
-          <div className="img-2"></div>
-          <div className="img-3"></div>
-          <div className="img-4"></div>
+          <div className="img"></div>
+          <div className="img"></div>
+          <div className="img"></div>
+          <div className="img"></div>
         </div>
       </div>
 

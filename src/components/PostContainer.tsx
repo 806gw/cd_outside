@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
-import HitGallery from "./Hit.Gallery";
+import HitGallery from "./HitGallery";
 
 const PostContainer = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
