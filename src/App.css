@@ -205,10 +205,10 @@
 
 .login-container {
     margin-top: 0.7rem;
-    width: 35%;
-    height: 7rem;
-    background-color: #eee;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 21%;
+    height: 10rem;
+    background-color: #fff;
+   border: 1px solid #3B4890;
     margin-left: 30px;
 }
 
@@ -225,29 +225,80 @@
     margin-top: 10px;
 }
 
+.id-box {
+  display: flex;
+  width: 15.5rem;
+  height: 2.5rem;
+}
+
+.checkbox {
+  margin-left: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.7rem;
+}
+
+.code-submit {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  font-size: 0.95rem;
+}
+
+.id {
+  border: none;
+  background-color: #eee;
+  width: 9rem;
+  height: 2.5rem;
+  padding-left: 10px;
+}
+
+.password {
+  border: none;
+  background-color: #eee;
+  width: 9rem;
+  height: 2.5rem;
+  padding-left: 10px;
+}
+
 .login-container > .login-box > .login-contents > form {
     width: 80%;
     height: 3.5rem;
-    margin: auto;
+    margin-top: 1.1rem;
+    margin-left: 1rem;
 }
 
+
+.login-container > .login-box > .login-contents > form > .password-login {
+  width: 15rem;
+  height: auto;
+  display: flex;
+}
 
 .login-container > .login-box > .login-contents > form > .password-login > button {
     background-color: #3b4890;
     color: #eee;
-    width: 60px;
-    height: 25px;
+    width: 8rem;
+    height: 2.5rem;
+    margin-top: 0.75rem;
     margin-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .login-container > .login-box > .join-find-box {
-    width: 70%;
-    height: 30%;
+    width: 13rem;
+    height: 20%;
     margin: auto;
     font-size: 0.9rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+    border-top: dashed 1px #AAAAAA;
+
 }
 
 .password {

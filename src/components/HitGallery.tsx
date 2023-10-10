@@ -37,6 +37,7 @@ const HitGallery = () => {
             <form>
               <div className="id-box">
                 <input type="text" placeholder="아이디" className="id" />
+                <input type="checkbox" className="checkbox"/> <div className="code-submit">코드 저장</div>
               </div>
               <div className="password-login">
                 <input
