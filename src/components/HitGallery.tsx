@@ -49,7 +49,6 @@ const HitGallery = () => {
               </div>
             </form>
           </div>
-
           <div className="join-find-box">
             <span onClick={() => navigate("/signup")} className="signup">
               회원가입
@@ -58,6 +57,14 @@ const HitGallery = () => {
               아이디 비번 찾기
             </span>
           </div>
+        </div>
+      </div>
+      <div className="mini-gallery">
+        <div className="gallery-title">
+        
+        </div>
+        <div className="gallery-main">
+
         </div>
       </div>
     </div>

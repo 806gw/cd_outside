@@ -61,9 +61,10 @@
 }
 
 .navigation > .nav-container {
-    width: 70%;
+    width: 30%;
     height: 100%;
-    margin: auto;
+    margin-left: 18%;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -243,7 +244,7 @@
   justify-content: center;
   text-align: center;
   display: flex;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
 }
 
 .id {
@@ -319,3 +320,9 @@
     background: #000;
 }
 
+.mini-gallery {
+  width: 10rem;
+  height: 10rem;
+  background-color: #000;
+  margin-top: 11rem;
+}
