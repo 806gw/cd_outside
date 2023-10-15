@@ -1,6 +1,6 @@
 import React from "react";
-import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
-import { useNavigate } from "react-router-dom";
+import {AiFillCaretLeft, AiFillCaretRight} from "react-icons/ai";
+import {useNavigate} from "react-router-dom";
 
 const HitGallery = () => {
   const navigate = useNavigate();
@@ -15,10 +15,10 @@ const HitGallery = () => {
               <b>1</b>/3
             </span>
             <button>
-              <AiFillCaretLeft />
+              <AiFillCaretLeft/>
             </button>
             <button>
-              <AiFillCaretRight />
+              <AiFillCaretRight/>
             </button>
           </div>
         </div>
@@ -36,8 +36,9 @@ const HitGallery = () => {
           <div className="login-contents">
             <form>
               <div className="id-box">
-                <input type="text" placeholder="아이디" className="id" />
-                <input type="checkbox" className="checkbox"/> <div className="code-submit">코드 저장</div>
+                <input type="text" placeholder="아이디" className="id"/>
+                <input type="checkbox" className="checkbox"/>
+                <div className="code-submit">코드 저장</div>
               </div>
               <div className="password-login">
                 <input
@@ -58,13 +59,13 @@ const HitGallery = () => {
             </span>
           </div>
         </div>
-      </div>
-      <div className="mini-gallery">
-        <div className="gallery-title">
-        
-        </div>
-        <div className="gallery-main">
+        <div className="mini-gallery">
+          <div className="gallery-title">
 
+          </div>
+          <div className="gallery-main">
+
+          </div>
         </div>
       </div>
     </div>
