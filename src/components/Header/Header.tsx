@@ -1,6 +1,7 @@
 import { FormEvent, useState } from "react";
 import { FaSearch } from 'react-icons/fa'
 import styles from './Header.module.scss'
+import GbswLogo from '/Work/cd_outside/src/assets/GBSW_logo.png'
 
 const Header = () => {
   const [searchValue, setSearchValue] = useState<string>("");
@@ -15,7 +16,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.ico_search}>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86DKzPbiSheFqV12Hu3z-rweaVwFLnBUuqj6drd6h8tRq9_ByumZs4IuXPOPuSY9OZg&usqp=CAU"
+          src={GbswLogo}
           className={styles.gbsw_ico}
         />
         <form onSubmit={handleSearch}>
