@@ -18,9 +18,7 @@ const PostContainer = () => {
         </div>
       </div>
 
-      <div
-        className={isOpen ? "visit-container-open" : "visit-container-close"}
-      >
+      <div className={isOpen ? styles.visit_container_open : styles.visit_container_close}>
         <div className={styles.divider}>
           <button
             onClick={() => setPageState(0)}

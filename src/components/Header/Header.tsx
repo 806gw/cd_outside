@@ -1,7 +1,7 @@
 import { FormEvent, useState } from "react";
 import { FaSearch } from 'react-icons/fa'
 import styles from './Header.module.scss'
-import GbswLogo from '/Work/cd_outside/src/assets/GBSW_logo.png'
+import GbswLogo from '../../assets/GBSW_logo.png'
 
 const Header = () => {
   const [searchValue, setSearchValue] = useState<string>("");
