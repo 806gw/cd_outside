@@ -1,14 +1,15 @@
 import { useState } from "react";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
-import HitGallery from "./HitGallery";
+import HitGallery from "/Work/cd_outside/src/components/HitGallery/HitGallery";
+import styles from './PostContainer.module.scss'
 
 const PostContainer = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [pageState, setPageState] = useState<number>(0);
 
   return (
-    <div className="post-container">
-      <div className="recent-visit">
+    <div className={styles.post_container}>
+      <div className={styles.recent_visit}>
         <div>
           최근방문
           <button onClick={() => setIsOpen(!isOpen)}>
@@ -20,7 +21,7 @@ const PostContainer = () => {
       <div
         className={isOpen ? "visit-container-open" : "visit-container-close"}
       >
-        <div className="divider">
+        <div className={styles.divider}>
           <button
             onClick={() => setPageState(0)}
             className={pageState === 0 ? "active" : ""}
@@ -36,7 +37,7 @@ const PostContainer = () => {
           </button>
           </div>
 
-          <div className="detail-container">
+          <div className={styles.detail_container}>
             {pageState === 0 ? '최근 방문' : '즐겨찾기'}
           </div>
       </div>

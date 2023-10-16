@@ -1,0 +1,90 @@
+.post_container {
+  margin: auto;
+  width: 83rem;
+  height: 100vh;
+}
+
+.post_container > .recent_visit {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  background-color: #eee;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; */
+}
+
+.post_container > .recent_visit > div:first-child {
+  margin-left: 1rem;
+  color: #3b4890;
+  font-weight: bold;
+}
+
+.post_container > .recent_visit > div:first-child > button {
+  margin-left: 0.5rem;
+  background-color: #ddd;
+  width: 1.7rem;
+  height: 1.5rem;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.post_container > .recent_visit > div:first-child > button > svg {
+  margin-bottom: -0.15rem;
+}
+
+.visit_container_open {
+  width: 100%;
+  height: 20rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  visibility: visible;
+  transition: all .25s;
+  z-index: 2;
+}
+
+.visit_container_close {
+  width: 100%;
+  height: 0;
+  transition: all .25s;
+  visibility: hidden;
+}
+
+.visit_container_close > * {
+  visibility: hidden;
+}
+
+.visit_container_open > .divider {
+  margin: auto;
+  width: 100%;
+  height: 3.3rem;
+  background-color: #faa;
+}
+
+.visit_container_open > .divider > button {
+  width: 50%;
+  height: 100%;
+  font-size: 1.1rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .25s;
+}
+
+.visit_container_open > .divider > .active {
+  background-color: #3b4890;
+  color: #fff;
+}
+
+.visit_container_open > .detail_container {
+  width: 100%;
+  height: 16.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 1.2rem;
+}

@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom"
-
+import styles from './Navgation.module.scss'
 const Navigation = () => {
     const navigate = useNavigate()
 
     return (
-        <nav className="navigation">
-            <div className='nav-container'>
+        <nav className={styles.navigation}>
+            <div className={styles.nav_container}>
                 <span onClick={() => navigate('/gallery')}>갤러리</span>
                 <span onClick={() => navigate('/news')}>뉴스</span>
                 <span onClick={() => navigate('/gal')}>미니갤</span>
