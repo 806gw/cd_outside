@@ -13,6 +13,9 @@ import Gal from "./pages/Gal";
 import Gallog from "./pages/Gallog";
 import Signup from "./pages/Signup";
 import Find from "./pages/Find";
+import MainText from "./pages/mini-gallery/MainText";
+import Mini from "./pages/mini-gallery/Mini";
+import Minor from "./pages/mini-gallery/Minor";
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
         <Route path="/gallog" element={<Gallog />} />
         <Route path="/signup" element={<Signup />}></Route>
         <Route path="/find" element={<Find />} />
+        <Route path="/maintext" element={<MainText />} />
+        <Route path="/mini" element={<Mini />} />
+        <Route path="/minor" element={<Minor />} />
       </Routes>
     </BrowserRouter> 
   );
