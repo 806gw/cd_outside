@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
-import HitGallery from "/Work/cd_outside/src/components/HitGallery/HitGallery";
+import HitGallery from "../HitGallery/HitGallery";
 import styles from './PostContainer.module.scss'
 
 const PostContainer = () => {

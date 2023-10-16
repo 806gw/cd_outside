@@ -1,8 +1,8 @@
 import React from "react";
 import {AiFillCaretLeft, AiFillCaretRight} from "react-icons/ai";
 import {useNavigate} from "react-router-dom";
-import CheckIcon from '/Work/cd_outside/src/assets/check-svgrepo-com (3).svg'
-import TriangleIcon from '/Work/cd_outside/src/assets/triangle-right-filled-svgrepo-com (2).svg'
+import CheckIcon from '../../assets/check-svgrepo-com (3).svg'
+import TriangleIcon from '../../assets/triangle-right-filled-svgrepo-com (2).svg'
 import styles from '../HitGallery/HitGallery.module.scss'
 
 const HitGallery = () => {
