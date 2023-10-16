@@ -17,10 +17,10 @@ const HitGallery = () => {
               <b>1</b>/3
             </span>
             <button>
-              <AiFillCaretLeft />
+              <AiFillCaretLeft/>
             </button>
             <button>
-              <AiFillCaretRight />
+              <AiFillCaretRight/>
             </button>
           </div>
         </div>
@@ -30,24 +30,27 @@ const HitGallery = () => {
           <div className="img"></div>
           <div className="img"></div>
         </div>
+
         <div className="text-box1">
+
           <div className="live-main">
-          실시간 베스트
-          <img src={CheckIcon} className="check-ico" />
-          <div className="silverite">실베라이트</div>
-          <img src={CheckIcon} className="check-ico" />
-          <div className="sil-gallery">실갤</div>
-          <img src={TriangleIcon} className="triangle-ico" />
+            실시간 베스트
+            <img src={CheckIcon} className="check-ico"/>
+            <div className="silverite">실베라이트</div>
+            <img src={CheckIcon} className="check-ico"/>
+            <div className="sil-gallery">실갤</div>
+            <img src={TriangleIcon} className="triangle-ico"/>
           </div>
+
           <div className="live-btn">
             <span>
               <b>1</b>/6
             </span>
             <button>
-              <AiFillCaretLeft />
+              <AiFillCaretLeft/>
             </button>
             <button>
-              <AiFillCaretRight />
+              <AiFillCaretRight/>
             </button>
           </div>
         </div>
@@ -57,8 +60,8 @@ const HitGallery = () => {
           <div className="login-contents">
             <form>
               <div className="id-box">
-                <input type="text" placeholder="아이디" className="id" />
-                <input type="checkbox" className="checkbox" />
+                <input type="text" placeholder="아이디" className="id"/>
+                <input type="checkbox" className="checkbox"/>
                 <div className="code-submit">코드 저장</div>
               </div>
               <div className="password-login">
