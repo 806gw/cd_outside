@@ -373,3 +373,24 @@
   width: 6rem;
   margin-left: 1.7rem;
 }
+
+.check-ico {
+  width: 2.5rem;
+  height: 2rem;
+}
+
+.check-ico:hover {
+  cursor: pointer;
+  filter: invert(16%) sepia(89%) saturate(6054%) hue-rotate(358deg) brightness(97%) contrast(113%);
+}
+
+.sil-gallery {
+  padding: 0 0 0 15px;
+  font-size: 1rem;
+}
+
+.triangle-ico {
+  width: 1.5rem;
+  height: 4rem;
+  color: #3B4890;
+}
