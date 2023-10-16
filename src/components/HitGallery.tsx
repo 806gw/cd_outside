@@ -1,8 +1,8 @@
 import React from "react";
 import {AiFillCaretLeft, AiFillCaretRight} from "react-icons/ai";
 import {useNavigate} from "react-router-dom";
-import CheckIcon from '../assets/check-svgrepo-com (1).svg'
-import TriangleIcon from '../assets/triangle-right-filled-svgrepo-com.svg'
+import CheckIcon from '../assets/check-svgrepo-com (3).svg'
+import TriangleIcon from '../assets/triangle-right-filled-svgrepo-com (2).svg'
 
 const HitGallery = () => {
   const navigate = useNavigate();
@@ -31,16 +31,25 @@ const HitGallery = () => {
           <div className="img"></div>
         </div>
         <div className="text-box1">
+          <div className="live-main">
           실시간 베스트
           <img src={CheckIcon} className="check-ico" />
-          <div className="silverite">
-            실베라이트
-          </div>
+          <div className="silverite">실베라이트</div>
           <img src={CheckIcon} className="check-ico" />
-          <div className="sil-gallery">
-            실갤
+          <div className="sil-gallery">실갤</div>
+          <img src={TriangleIcon} className="triangle-ico" />
           </div>
-          <img src={TriangleIcon} className="triangle-ico"/>
+          <div className="live-btn">
+            <span>
+              <b>1</b>/6
+            </span>
+            <button>
+              <AiFillCaretLeft />
+            </button>
+            <button>
+              <AiFillCaretRight />
+            </button>
+          </div>
         </div>
       </div>
       <div className="login-container">

@@ -360,6 +360,12 @@
 }
 
 .text-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.live-main {
     border-bottom: 3px solid #3b4890;
     font-size: 1.2rem;
     height: 3.2rem;
@@ -382,7 +388,7 @@
 
 .check-ico:hover {
     cursor: pointer;
-    filter: invert(53%) sepia(0%) saturate(2698%) hue-rotate(320deg) brightness(94%) contrast(99%);
+    filter: invert(10%) sepia(99%) saturate(6789%) hue-rotate(16deg) brightness(90%) contrast(105%);  
 }
 
 .sil-gallery {
@@ -394,4 +400,15 @@
     width: 1.5rem;
     height: 4rem;
     color: #3B4890;
+}
+
+.text-box1 >.live-btn > button {
+    background-color: #3b4890;
+    border: none;
+    height: 1.8rem;
+    color: #fff;
+}
+
+.live-btn {
+  display: flex;
 }
