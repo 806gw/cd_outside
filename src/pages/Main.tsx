@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import HitGallery from "../components/HitGallery";
 import Navigation from "../components/Navigation";
 import PostContainer from "../components/PostContainer";

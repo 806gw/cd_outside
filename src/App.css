@@ -4,57 +4,6 @@
     background-color: #fff;
 }
 
-.header {
-    width: 100%;
-    height: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header > form {
-    display: flex;
-    align-items: center;
-    width: 25rem;
-    height: 3rem;
-}
-
-.header > .ico-search {
-    display: flex;
-    margin-right: 40em;
-}
-
-.header > .ico-search > form {
-    width: 26rem;
-}
-
-.header > .ico-search > form > input {
-    width: 21.5rem;
-    height: 3rem;
-    border: 4px solid #3b4890;
-    box-sizing: border-box;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 15px;
-    margin-top: 1.1em;
-    margin-left: 1em;
-}
-
-.header > .ico-search > form > button {
-    width: 3.5rem;
-    height: 3rem;
-    background-color: #3b4890;
-    border: none;
-    color: #fff;
-    font-size: 18px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.header > form > button > svg {
-    margin-bottom: -0.2rem;
-}
-
 .navigation {
     width: 100%;
     height: 3rem;
