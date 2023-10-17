@@ -1,11 +1,16 @@
-import React from 'react';
+import React from 'react'
+import styles from '../HitGallery/HitGallery.module.scss'
 
-type Hit_Gallery = {
-  name: string;
-};
+function Hit_Gallery() {
+  return (
+    <div className={styles.component}>
+      <Hit_Gallery />
+      <Hit_Gallery />
+      <Hit_Gallery />
+      <Hit_Gallery />
+      <Hit_Gallery />
+    </div>
+  )
+}
 
-const Greetings: React.FC<Hit_Gallery> = ({ name }) => (
-  <div>Hello, {name}</div>
-);
-
-export default Greetings;
+export default Hit_Gallery

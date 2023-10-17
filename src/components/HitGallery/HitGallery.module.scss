@@ -264,7 +264,7 @@
   height: 30em;
 }
 
-.live_gallery > .live_gal {
+.live_gallery > .component > .live_gal {
   width: 100%;
   height: 3.7rem;
   border-bottom: #AAAAAA 0.5px solid;
@@ -272,29 +272,29 @@
   justify-content: space-between;
 }
 
-.live_gallery > .live_gal > .gal_detail {
+.live_gallery > .component >.live_gal > .gal_detail {
   display: flex;
 }
 
-.live_gallery > .live_gal > .gal_detail >.live_img {
+.live_gallery > .component > .live_gal > .gal_detail >.live_img {
   background-color: #000;
   width: 6.3rem;
   height: 3.3rem;
   margin-top: 0.29rem;
 }
 
-.live_gallery > .live_gal > .gal_detail > h1 {
+.live_gallery > .component > .live_gal > .gal_detail > h1 {
   margin-left: 20px;
   width: 16rem;
   font-size: 1.3rem;
 }
 
-.live_gallery > .live_gal > .gal_detail > h1:hover {
+.live_gallery > .component >.live_gal > .gal_detail > h1:hover {
   border-bottom: #000 3px solid;
   cursor: pointer;
 }
 
-.live_gallery > .live_gal > .live_location {
+.live_gallery > .component > .live_gal > .live_location {
   display: flex;
   color: #B6ABAC;
   width: 13rem;

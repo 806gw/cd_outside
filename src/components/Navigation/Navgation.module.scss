@@ -31,9 +31,9 @@
   height: 2rem;
 }
 
-.over_event {
+.over_event { 
   width: 6rem;
-  height: 10rem;
+  height: 6rem;
   background: #29367c;
   z-index: 1; //이 속성은 스택 순서를 설정합니다. 스택 순서란 여러 개의 겹쳐진 요소 중 어떤 것이 사용자에게 보여질지 결정하는 것입니다. z-index 값이 클수록 해당 요소가 다른 겹친 요소 위로 올라갑니다.
   position: absolute; // 이 속성은 요소를 문서 흐름에서 제거하고 가장 가까운 위치 지정 조상(즉, position 속성이 static이 아닌 조상)에 대해 상대적으로 배치합니다. 만약 위치 지정 조상이 없다면 초기 컨테이닝 블록에 대해 상대적으로 배치됩니다. 이렇게 배치된 요소는 원래 있던 공간을 차지하지 않으며, 다른 요소들은 그 공간을 채우기 위해 재배열됩니다.
@@ -47,4 +47,17 @@
   height: 0;
   visibility: hidden;
   opacity: 0;
+}
+
+.hide_nav {
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.hide_nav > span:hover {
+  color: #FEF300;
+  border-bottom: #FEF300 1px solid;
 }

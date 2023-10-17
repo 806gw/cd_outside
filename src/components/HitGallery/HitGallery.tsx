@@ -4,6 +4,7 @@ import {useNavigate} from "react-router-dom";
 import CheckIcon from '../../assets/check-svgrepo-com (3).svg'
 import TriangleIcon from '../../assets/triangle-right-filled-svgrepo-com (2).svg'
 import styles from '../HitGallery/HitGallery.module.scss'
+import Hit_Gallery from "./Hit_Gallery";
 
 const HitGallery = () => {
   const navigate = useNavigate();
@@ -55,6 +56,8 @@ const HitGallery = () => {
           </div>
         </div>
           <div className={styles.live_gallery}>
+          <div className={styles.component}>
+
           <div className={styles.live_gal}>
             <div className={styles.gal_detail}>
             <img className={styles.live_img}/>
@@ -65,65 +68,7 @@ const HitGallery = () => {
               <div className={styles.time}>00:00</div>
             </div>
           </div>
-          <div className={styles.live_gal}>
-            <div className={styles.gal_detail}>
-            <img className={styles.live_img}/>
-            <h1>실시간 베스트 갤러리 제목</h1>
-            </div>
-            <div className={styles.live_location}>
-              <div className={styles.location}>싱글벙글 지구촌</div>
-              <div className={styles.time}>00:00</div>
-            </div>
-          </div>
-          <div className={styles.live_gal}>
-            <div className={styles.gal_detail}>
-            <img className={styles.live_img}/>
-            <h1>실시간 베스트 갤러리 제목</h1>
-            </div>
-            <div className={styles.live_location}>
-              <div className={styles.location}>싱글벙글 지구촌</div>
-              <div className={styles.time}>00:00</div>
-            </div>
-          </div>
-          <div className={styles.live_gal}>
-            <div className={styles.gal_detail}>
-            <img className={styles.live_img}/>
-            <h1>실시간 베스트 갤러리 제목</h1>
-            </div>
-            <div className={styles.live_location}>
-              <div className={styles.location}>싱글벙글 지구촌</div>
-              <div className={styles.time}>00:00</div>
-            </div>
-          </div>
-          <div className={styles.live_gal}>
-            <div className={styles.gal_detail}>
-            <img className={styles.live_img}/>
-            <h1>실시간 베스트 갤러리 제목</h1>
-            </div>
-            <div className={styles.live_location}>
-              <div className={styles.location}>싱글벙글 지구촌</div>
-              <div className={styles.time}>00:00</div>
-            </div>
-          </div>
-          <div className={styles.live_gal}>
-            <div className={styles.gal_detail}>
-            <img className={styles.live_img}/>
-            <h1>실시간 베스트 갤러리 제목</h1>
-            </div>
-            <div className={styles.live_location}>
-              <div className={styles.location}>싱글벙글 지구촌</div>
-              <div className={styles.time}>00:00</div>
-            </div>
-          </div>
-          <div className={styles.live_gal}>
-            <div className={styles.gal_detail}>
-            <img className={styles.live_img}/>
-            <h1>실시간 베스트 갤러리 제목</h1>
-            </div>
-            <div className={styles.live_location}>
-              <div className={styles.location}>싱글벙글 지구촌</div>
-              <div className={styles.time}>00:00</div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -164,7 +109,9 @@ const HitGallery = () => {
               <span onClick={() => navigate("/mini")}>미니</span>
             </div>
           </div>
-          <div className={styles.gallery_main}></div>
+          <div className={styles.gallery_main}>
+            
+          </div>
         </div>
       </div>
     </div>
