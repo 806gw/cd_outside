@@ -54,7 +54,7 @@ const HitGallery = () => {
             </button>
           </div>
         </div>
-        <div className={styles.live_gallery}>
+          <div className={styles.live_gallery}>
           <div className={styles.live_gal}>
             <div className={styles.gal_detail}>
             <img className={styles.live_img}/>

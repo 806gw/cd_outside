@@ -22,14 +22,14 @@ const PostContainer = () => {
         <div className={styles.divider}>
           <button
             onClick={() => setPageState(0)}
-            className={pageState === 0 ? "active" : ""}
+            className={pageState === 0 ? styles.active : ''}
           >
             최근 방문
           </button>
 
           <button
             onClick={() => setPageState(1)}
-            className={pageState === 1 ? "active" : ""}
+            className={pageState === 1 ? styles.active : ''}
           >
             즐겨찾기
           </button>
