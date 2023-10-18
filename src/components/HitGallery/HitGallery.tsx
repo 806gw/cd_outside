@@ -4,7 +4,6 @@ import {useNavigate} from "react-router-dom";
 import CheckIcon from '../../assets/check-svgrepo-com (3).svg'
 import TriangleIcon from '../../assets/triangle-right-filled-svgrepo-com (2).svg'
 import styles from '../HitGallery/HitGallery.module.scss'
-import Hit_Gallery from "./Hit_Gallery";
 
 const HitGallery = () => {
   const navigate = useNavigate();
@@ -19,10 +18,10 @@ const HitGallery = () => {
               <b>1</b>/3
             </span>
             <button>
-              <AiFillCaretLeft />
+              <AiFillCaretLeft/>
             </button>
             <button>
-              <AiFillCaretRight />
+              <AiFillCaretRight/>
             </button>
           </div>
         </div>
@@ -36,11 +35,13 @@ const HitGallery = () => {
         <div className={styles.text_box1}>
           <div className={styles.live_main}>
             실시간 베스트
-            <img src={CheckIcon} className={styles.check_ico} />
-            <div className={styles.silverite}>실베<div>라이트</div></div>
-            <img src={CheckIcon} className={styles.check_ico} />
+            <img src={CheckIcon} className={styles.check_ico}/>
+            <div className={styles.silverite}>실베
+              <div>라이트</div>
+            </div>
+            <img src={CheckIcon} className={styles.check_ico}/>
             <div className="sil-gallery">실갤</div>
-            <img src={TriangleIcon} className={styles.triangle_ico} />
+            <img src={TriangleIcon} className={styles.triangle_ico}/>
           </div>
 
           <div className={styles.live_btn}>
@@ -48,26 +49,30 @@ const HitGallery = () => {
               <b>1</b>/6
             </span>
             <button>
-              <AiFillCaretLeft />
+              <AiFillCaretLeft/>
             </button>
             <button>
-              <AiFillCaretRight />
+              <AiFillCaretRight/>
             </button>
           </div>
         </div>
-          <div className={styles.live_gallery}>
+        <div className={styles.live_gallery}>
           <div className={styles.component}>
 
-          <div className={styles.live_gal}>
-            <div className={styles.gal_detail}>
-            <img className={styles.live_img}/>
-            <h1>실시간 베스트 갤러리 제목</h1>
-            </div>
-            <div className={styles.live_location}>
-              <div className={styles.location}>싱글벙글 지구촌</div>
-              <div className={styles.time}>00:00</div>
-            </div>
-          </div>
+            {
+              [...Array(10)].map((_, i) => (
+                <div className={styles.live_gal} key={i}>
+                  <div className={styles.gal_detail}>
+                    <img className={styles.live_img}/>
+                    <h1>실시간 베스트 갤러리 제목</h1>
+                  </div>
+                  <div className={styles.live_location}>
+                    <div className={styles.location}>싱글벙글 지구촌</div>
+                    <div className={styles.time}>00:00</div>
+                  </div>
+                </div>
+              ))
+            }
 
           </div>
         </div>
@@ -77,8 +82,8 @@ const HitGallery = () => {
           <div className={styles.login_contents}>
             <form>
               <div className={styles.id_box}>
-                <input type="text" placeholder="아이디" className={styles.id} />
-                <input type="checkbox" className={styles.checkbox} />
+                <input type="text" placeholder="아이디" className={styles.id}/>
+                <input type="checkbox" className={styles.checkbox}/>
                 <div className={styles.code_submit}>코드 저장</div>
               </div>
               <div className={styles.password_login}>
@@ -110,7 +115,7 @@ const HitGallery = () => {
             </div>
           </div>
           <div className={styles.gallery_main}>
-            
+
           </div>
         </div>
       </div>
