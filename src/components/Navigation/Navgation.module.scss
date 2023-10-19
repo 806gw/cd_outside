@@ -9,12 +9,16 @@
   height: 100%;
   margin-left: 18%;
   font-weight: 600;
+  text-shadow: 0px 0.025em #1f2552;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
 }
 
+.navigation > .nav_container > span:hover {
+  border-bottom: #fff solid 1px;
+}
 
 .navigation > .nav_container > span {
   color: #fff;
@@ -24,6 +28,7 @@
 .mini_gallery {
   border-right: 1px #646DA7 solid;
   width: 4rem;
+  margin-left: 0.2rem;
 }
 
 .navigation > .nav_container > span > img {
