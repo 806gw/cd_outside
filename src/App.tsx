@@ -11,7 +11,7 @@ import Nft from "./pages/Nft";
 import Wiki from "./pages/Wiki";
 import Gal from "./pages/Gal";
 import Gallog from "./pages/Gallog";
-import Signup from "./pages/Signup";
+import Signup from "./pages/Signup/Signup";
 import Find from "./pages/Find";
 import MainText from "./pages/mini-gallery/MainText";
 import Mini from "./pages/mini-gallery/Mini";
