@@ -15,7 +15,7 @@ import Signup from "./pages/Signup/Signup";
 import Find from "./pages/Find";
 import MainText from "./pages/mini-gallery/MainText";
 import Mini from "./pages/mini-gallery/Mini";
-import Minor from "./pages/mini-gallery/Minor";
+import Minor from "./pages/mini-gallery/Minor/Minor";
 import HitGallery from "../src/components/HitGallery/HitGallery";
 
 function App() {
