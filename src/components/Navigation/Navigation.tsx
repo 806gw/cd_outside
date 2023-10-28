@@ -1,13 +1,24 @@
 import {useNavigate} from "react-router-dom"
-import {ReactElement, useState} from 'react';
+import {FormEvent, ReactElement, useState} from 'react';
 import styles from './Navgation.module.scss'
 import DownTriangle from '../../assets/triangle-down-filled-svgrepo-com.svg'
 import UpTriangle from '../../assets/triangle-up-filled-svgrepo-com.svg'
 
-const Navigation = () => {
+interface Props {
+  headerName?: string;
+}
+
+const Navigation = ({headerName}: Props) => {
+  const [searchValue, setSearchValue] = useState<string>("");
+  
+  const handleSearch = (e: FormEvent) => {
+    e.preventDefault()
+
+    alert(searchValue)
+  }
+
   const navigate = useNavigate()
   const [isOpen, setIsOpen] = useState<boolean>(false);	// 메뉴닫힘/열림 상태
-
   return (
     <nav className={styles.navigation}>
       <div className={styles.nav_container}>
@@ -17,7 +28,7 @@ const Navigation = () => {
           미니갤
         </span>
         <span onClick={() => navigate("/gallog")}>갤로그</span>
-        <span onClick={() => navigate("/news")}>디시뉴스</span>
+        <span onClick={() => navigate("/news")}>경소고뉴스</span>
         <span onClick={() => navigate("/nft")}>NFT</span>
         <span
           onMouseOver={() => setIsOpen(true)} //마우스 커서가 span 태그 위에 있을 때 true 로 설정
@@ -41,3 +52,7 @@ const Navigation = () => {
 
 
 export default Navigation
+
+ 
+
+ 

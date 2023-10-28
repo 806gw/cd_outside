@@ -15,7 +15,7 @@
 
 .header > .ico_search {
   display: flex;
-  margin-right: 40em;
+  margin-right: 25em;
 }
 
 .header > .ico_search > form {
@@ -31,6 +31,7 @@
   padding-right: 1rem;
   font-size: 15px;
   font-weight: bolder;
+  cursor: auto;
 }
 
 .header > .ico_search > form > button {
@@ -48,7 +49,7 @@
   margin-bottom: -0.2rem;
 }
 
-.header > .ico_search > img {
+.header > .ico_search > a > img {
   width: 25rem;
   padding: 0 15px 0 0;
 }

@@ -3,9 +3,13 @@ import { FaSearch } from 'react-icons/fa'
 import styles from './Header.module.scss'
 import GbswLogo from '../../assets/GBSW_logo.png'
 
-const Header = () => {
-  const [searchValue, setSearchValue] = useState<string>("");
+interface Props {
+  headerName?: string;
+}
 
+const Header = ({headerName}: Props) => {
+  const [searchValue, setSearchValue] = useState<string>("");
+  
   const handleSearch = (e: FormEvent) => {
     e.preventDefault()
 
@@ -15,10 +19,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.ico_search}>
-        <img
-          src={GbswLogo}
-          className={styles.gbsw_ico}
-        />
+        <a href="http://localhost:3000/"><img src={GbswLogo} className={styles.gbsw_ico}/></a>
         <form onSubmit={handleSearch}>
           <input
             placeholder="갤러리 & 통합검색"
@@ -33,6 +34,5 @@ const Header = () => {
       </div>
     </header>
   );
-};
-
+}
 export default Header;
