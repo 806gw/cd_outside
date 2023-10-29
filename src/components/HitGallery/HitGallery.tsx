@@ -40,7 +40,7 @@ const HitGallery = () => {
               실베
               <div>라이트</div>
             </div>
-            <img src={CheckIcon} className={styles.check_ico} />
+            <img src={CheckIcon} className={styles.check_ico_light} />
             <div className="sil-gallery">실갤</div>
             <img src={TriangleIcon} className={styles.triangle_ico} />
           </div>

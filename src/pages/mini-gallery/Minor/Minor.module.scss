@@ -128,14 +128,22 @@
 }
 
 .main_title > b {
+  width: 5rem;
   font-size: 1rem;
   font-weight: 900;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  color: #3B4890;
+}
+
+.search_text {
+  width: 11rem;
+  margin-right: 16rem;
+  margin-top: 2.5rem;
   color: #3B4890;
 }
 
 .main_title > div {
-  margin-left: 5rem;
+  margin-left: -26rem;
   width: 50rem;
   height: 4rem;
   display: flex;
@@ -156,10 +164,10 @@
 }
 
 .main_title > p {
-  width: 14rem;
+  width: 12.3rem;
   height: 3rem;
-  margin-top: 2rem;
-  margin-left: 4rem;
+  margin-top: 2.5rem;
+  margin-left: 3rem;
 }
 
 .main_title > div > .search {

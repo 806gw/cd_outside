@@ -3,6 +3,7 @@ import GbswLogo from '../../assets/GBSW_logo.png'
 
 const Signup = () => {
   return (
+    <div className={styles.signup}>
     <div className={styles.main_signup}>
       <img src={GbswLogo} />
       <section className={styles.wrap}>
@@ -134,6 +135,7 @@ const Signup = () => {
           </div>
         </div>
       </section>
+    </div>
     </div>
   );
 };

@@ -52,6 +52,7 @@ const Minor = () => {
           <div className={styles.main_title}>
             <b>공지사항</b>
             <p>경소고 마이너 갤러리 등장!</p>
+            <strong className={styles.search_text}>M.마이너갤러리 검색</strong>
             <div>
               <input type="text" />
               <button className={styles.search}>

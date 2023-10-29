@@ -236,6 +236,17 @@
   filter: invert(10%) sepia(99%) saturate(6789%) hue-rotate(16deg) brightness(90%) contrast(105%);
 }
 
+.check_ico_light {
+  width: 2.5rem;
+  height: 2rem;
+  transition: all .2s;
+}
+
+.check_ico_light:hover {
+  cursor: pointer;
+  filter: invert(62%) sepia(23%) saturate(4020%) hue-rotate(360deg) brightness(103%) contrast(101%);
+}
+
 .sil_gallery {
   padding: 0 0 0 15px;
   font-size: 1rem;
