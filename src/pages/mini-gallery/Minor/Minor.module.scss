@@ -18,7 +18,7 @@
 }
 
 .minor > .minor_title > p > span {
-  color: #5E80EC;
+  color: #3B4890;
 }
 
 .minor > .minor_title > button {
@@ -104,7 +104,7 @@
   line-height: 1.5rem;
   font-size: 1rem;
   margin-left: 1rem;
-  color: #5E80EC;
+  color: #3B4890;
 }
 
 .last_visit > button{
@@ -117,4 +117,77 @@
 .last_visit > button > img {
   width: 8px;
   height: 12px;
+}
+
+.main_title {
+  width: 80rem;
+  height: 4rem;
+  margin-left: 22.5rem;
+  border-bottom: 5px #3B4890 solid;
+  display: flex;
+}
+
+.main_title > b {
+  font-size: 1rem;
+  font-weight: 900;
+  margin-top: 2rem;
+  color: #3B4890;
+}
+
+.main_title > div {
+  margin-left: 5rem;
+  width: 50rem;
+  height: 4rem;
+  display: flex;
+}
+
+.main_title > div > input {
+  width: 20rem;
+  height: 1.5rem;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  border: #3B4890 3px solid;
+}
+
+.main_title > div > .search > #img {
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+}
+
+.main_title > p {
+  width: 14rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.main_title > div > .search {
+  width: 2rem;
+  height: 1.85rem;
+  margin-top: 2rem;
+  background-color: #3B4890;
+  border: #3B4890 1px solid;
+}
+
+.main_title > div > .all_search {
+  margin-left: 1rem;
+  width: 4.7rem;
+  height: 1.5rem;
+  margin-top: 2.1rem;
+  cursor: pointer;
+}
+
+.detail {
+  width: 80rem;
+  height: 50rem;
+  margin-left: 22.5rem;
+  margin-top: 0.5rem;
+  border: 3px solid #F3F3F3;
+}
+
+.detail_title {
+  width: 80rem;
+  height: 3rem;
+  background-color: #F3F3F3;
 }
