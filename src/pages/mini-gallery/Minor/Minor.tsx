@@ -64,6 +64,9 @@ const Minor = () => {
           <div className={styles.detail}>
             <div className={styles.detail_title}></div>
           </div>
+          <div className={styles.detail}>
+            <div className={styles.detail_title}></div>
+          </div>
         </div>
       </div>
     </>

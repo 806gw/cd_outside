@@ -1,3 +1,9 @@
+@media only screen and (min-width: 1000px){
+    .inner{
+      max-width: 1000px;
+    }
+}
+
 .minor {
   width: 100vw;
   height: 100vh;
@@ -188,7 +194,7 @@
 
 .detail {
   width: 80rem;
-  height: 50rem;
+  height: 25rem;
   margin-left: 22.5rem;
   margin-top: 0.5rem;
   border: 3px solid #F3F3F3;
